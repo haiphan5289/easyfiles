@@ -9,8 +9,8 @@ import Foundation
 
 public struct EasyFile {
     
-    public static func SayHello() {
-        print("=== Hello ====")
+    static func sayHello() {
+        print("==== Say Hello =====")
     }
     
 }
