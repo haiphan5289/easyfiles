@@ -7,11 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93907E7828C4A3F10018C09C /* EasyFileManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93907E6E28C4A3F10018C09C /* EasyFileManage.swift */; };
+		93907E7928C4A3F10018C09C /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93907E6F28C4A3F10018C09C /* URL+Extension.swift */; };
+		93907E7A28C4A3F10018C09C /* EasyManageFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93907E7028C4A3F10018C09C /* EasyManageFiles.swift */; };
+		93907E7B28C4A3F10018C09C /* CopyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93907E7128C4A3F10018C09C /* CopyView.swift */; };
+		93907E7C28C4A3F10018C09C /* SongExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93907E7228C4A3F10018C09C /* SongExporter.swift */; };
+		93907E7D28C4A3F10018C09C /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93907E7328C4A3F10018C09C /* Date+Extension.swift */; };
+		93907E7E28C4A3F10018C09C /* AutoLayout+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93907E7428C4A3F10018C09C /* AutoLayout+Extension.swift */; };
+		93907E7F28C4A3F10018C09C /* NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93907E7528C4A3F10018C09C /* NumberExtension.swift */; };
+		93907E8028C4A3F10018C09C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93907E7628C4A3F10018C09C /* StringExtension.swift */; };
+		93907E8128C4A3F10018C09C /* UIStackViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93907E7728C4A3F10018C09C /* UIStackViewExtensions.swift */; };
 		93AE61CB289AC708003E7CFA /* EasyFiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AE61CA289AC708003E7CFA /* EasyFiles.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93AE61D5289AC761003E7CFA /* EasyFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AE61D4289AC761003E7CFA /* EasyFiles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93907E6E28C4A3F10018C09C /* EasyFileManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyFileManage.swift; sourceTree = "<group>"; };
+		93907E6F28C4A3F10018C09C /* URL+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		93907E7028C4A3F10018C09C /* EasyManageFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyManageFiles.swift; sourceTree = "<group>"; };
+		93907E7128C4A3F10018C09C /* CopyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyView.swift; sourceTree = "<group>"; };
+		93907E7228C4A3F10018C09C /* SongExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongExporter.swift; sourceTree = "<group>"; };
+		93907E7328C4A3F10018C09C /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		93907E7428C4A3F10018C09C /* AutoLayout+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AutoLayout+Extension.swift"; sourceTree = "<group>"; };
+		93907E7528C4A3F10018C09C /* NumberExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberExtension.swift; sourceTree = "<group>"; };
+		93907E7628C4A3F10018C09C /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		93907E7728C4A3F10018C09C /* UIStackViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewExtensions.swift; sourceTree = "<group>"; };
 		93AE61C7289AC708003E7CFA /* EasyFiles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyFiles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AE61CA289AC708003E7CFA /* EasyFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyFiles.h; sourceTree = "<group>"; };
 		93AE61D4289AC761003E7CFA /* EasyFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyFiles.swift; sourceTree = "<group>"; };
@@ -50,6 +70,16 @@
 			children = (
 				93AE61CA289AC708003E7CFA /* EasyFiles.h */,
 				93AE61D4289AC761003E7CFA /* EasyFiles.swift */,
+				93907E7428C4A3F10018C09C /* AutoLayout+Extension.swift */,
+				93907E7128C4A3F10018C09C /* CopyView.swift */,
+				93907E7328C4A3F10018C09C /* Date+Extension.swift */,
+				93907E6E28C4A3F10018C09C /* EasyFileManage.swift */,
+				93907E7028C4A3F10018C09C /* EasyManageFiles.swift */,
+				93907E7528C4A3F10018C09C /* NumberExtension.swift */,
+				93907E7228C4A3F10018C09C /* SongExporter.swift */,
+				93907E7628C4A3F10018C09C /* StringExtension.swift */,
+				93907E7728C4A3F10018C09C /* UIStackViewExtensions.swift */,
+				93907E6F28C4A3F10018C09C /* URL+Extension.swift */,
 			);
 			path = EasyFiles;
 			sourceTree = "<group>";
@@ -141,7 +171,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93907E7828C4A3F10018C09C /* EasyFileManage.swift in Sources */,
 				93AE61D5289AC761003E7CFA /* EasyFiles.swift in Sources */,
+				93907E8028C4A3F10018C09C /* StringExtension.swift in Sources */,
+				93907E7A28C4A3F10018C09C /* EasyManageFiles.swift in Sources */,
+				93907E7C28C4A3F10018C09C /* SongExporter.swift in Sources */,
+				93907E7E28C4A3F10018C09C /* AutoLayout+Extension.swift in Sources */,
+				93907E7D28C4A3F10018C09C /* Date+Extension.swift in Sources */,
+				93907E8128C4A3F10018C09C /* UIStackViewExtensions.swift in Sources */,
+				93907E7928C4A3F10018C09C /* URL+Extension.swift in Sources */,
+				93907E7B28C4A3F10018C09C /* CopyView.swift in Sources */,
+				93907E7F28C4A3F10018C09C /* NumberExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
